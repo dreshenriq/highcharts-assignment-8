@@ -54,11 +54,15 @@ body {
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
 
-font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif ;
 
 a {
-    color: #82E8FF;
+    color: #379CB2;
 }
 a:hover {
     color: #82E8FF;
 }
+
+@media screen and (max-width: 700px) {
+  body {
+    margin: 20px;
+  }

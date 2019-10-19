@@ -55,6 +55,8 @@ body {
         specific articles or sections to improve CONTRAST --- */
 
 
+
+
 a {
     color: #379CB2;
 }
@@ -63,6 +65,4 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
-  body {
-    margin: 20px;
-  }
+}
